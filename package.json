@@ -1,22 +1,39 @@
 {
   "name": "js-coi",
-  "version": "1.0.3",
-  "description": "A simple validation tool.",
+  "version": "1.0.4",
+  "description": "一个灵活、强大的前端数据校验工具，支持链式调用和多种常用验证规则",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js",
+    "start": "node index.js"
   },
+  "keywords": [
+    "validation",
+    "validator",
+    "form",
+    "frontend",
+    "javascript",
+    "chain",
+    "校验",
+    "验证",
+    "表单"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/wtfjun/coi.git"
   },
   "author": "wtfjun",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wtfjun/coi/issues"
   },
   "homepage": "https://github.com/wtfjun/coi#readme",
-  "dependencies": {
-    "js-coi": "^1.0.0"
-  }
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
 }
