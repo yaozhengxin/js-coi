@@ -4,7 +4,8 @@
   "description": "A simple validation tool.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "pnpm install"
   },
   "repository": {
     "type": "git",
